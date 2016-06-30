@@ -1,0 +1,21 @@
+Source Code kernel 3.10.89 for Lenovo a369i
+==========
+When using these sources to indicate in credits SRT team!!!
+==========
+Working
+1) RIL
+2) Camera
+3) Touch
+4) Sounds
+5) LCM
+6) Proximity
+and other.
+NOT Working:
+1) Accelerometer
+==========
+Instruction:
+export ARCH=arm
+export CROSS_COMPILE=~/PATH
+make a369i_defconfig
+make -j5 2<&1 | tee build.log
+and wait.

@@ -1,0 +1,97 @@
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_gpio_boot.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_gpio_boot.h пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_gpio_usage.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_gpio_usage.h пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_kpd.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_kpd.h пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_eint.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_eint.h пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_adc.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_adc.h пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/pmic_drv.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/pmic_drv.h пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/pmic_drv.c <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/pmic_drv.c пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_eint_md1.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_eint_md1.h пропущена.
+make: Циклическая зависимость /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_power.h <- /home/darklord4722/android_kernel_explay_atom/arch/arm/mach-mt6572/a369i/dct/dct/inc/cust_power.h пропущена.
+  CC      scripts/mod/devicetable-offsets.s
+make[1]: `include/generated/mach-types.h' не требует обновления.
+  GEN     scripts/mod/devicetable-offsets.h
+  CALL    scripts/checksyscalls.sh
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTLD  scripts/mod/modpost
+  CHK     include/generated/compile.h
+"CONFIG_TRUSTONIC_TEE_SUPPORT = "
+/home/darklord4722/android_kernel_explay_atom/drivers/misc/mediatek/fmradio/Makefile:13: feature_option="MT6627_FM"
+/home/darklord4722/android_kernel_explay_atom/drivers/misc/mediatek/fmradio/Makefile:78: MT6627_FM
+/home/darklord4722/android_kernel_explay_atom/drivers/misc/mediatek/fmradio/Makefile:102: core/fm_module.o core/fm_main.o core/fm_config.o core/fm_rds_parser.o core/fm_patch.o core/fm_utils.o core/fm_link.o core/fm_eint.o mt6627/pub/mt6627_fm_lib.o mt6627/pub/mt6627_fm_rds.o mt6627/pub/mt6627_fm_cmd.o mt6627/pub/mt6627_fm_config.o
+drivers/misc/mediatek/gpu/mt6572/mali/mali
+  CC      drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.o
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c: In function 'lcm_compare_id':
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:302:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;
+         ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c: In function 'lcm_init':
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:337:18: warning: unused variable 'i' [-Wunused-variable]
+     unsigned int i;
+                  ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:336:18: warning: unused variable 'data_array' [-Wunused-variable]
+     unsigned int data_array[16];
+                  ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c: In function 'lcm_esd_check':
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:361:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     int i;
+     ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:361:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;
+         ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c: In function 'lcm_esd_recover':
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:413:5: warning: passing argument 1 of 'lcm_util.dsi_set_cmdq' from incompatible pointer type [enabled by default]
+     dsi_set_cmdq(&data_array, 1, 1);  
+     ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:413:5: note: expected 'unsigned int *' but argument is of type 'unsigned int (*)[16]'
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:416:5: warning: passing argument 1 of 'lcm_util.dsi_set_cmdq' from incompatible pointer type [enabled by default]
+     dsi_set_cmdq(&data_array, 1, 1);   
+     ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:416:5: note: expected 'unsigned int *' but argument is of type 'unsigned int (*)[16]'
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:419:5: warning: passing argument 1 of 'lcm_util.dsi_set_cmdq' from incompatible pointer type [enabled by default]
+     dsi_set_cmdq(&data_array, 2, 1); 
+     ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:419:5: note: expected 'unsigned int *' but argument is of type 'unsigned int (*)[16]'
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c: At top level:
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:38:21: warning: 'lcm_esd_test' defined but not used [-Wunused-variable]
+ static unsigned int lcm_esd_test = FALSE;      ///only for ESD test
+                     ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:64:12: warning: 'LCM_DETECT' defined but not used [-Wunused-variable]
+ static int LCM_DETECT = 0;
+            ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:66:13: warning: 'ILI9806E_set_reset_pin' defined but not used [-Wunused-function]
+ static void ILI9806E_set_reset_pin(int high){
+             ^
+drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/ili9806e_dsi_vdo.c:295:21: warning: 'lcm_compare_id' defined but not used [-Wunused-function]
+ static unsigned int lcm_compare_id(void)
+                     ^
+  LD      drivers/misc/mediatek/lcm/ili9806e_dsi_vdo/built-in.o
+  LD      drivers/misc/mediatek/lcm/built-in.o
+/home/darklord4722/android_kernel_explay_atom/drivers/misc/mediatek/ssw/Makefile:5: "SSW_DIR=/home/darklord4722/android_kernel_explay_atom/drivers/misc/mediatek/ssw/ssw_singlessw_exist=y"
+  LD      drivers/misc/mediatek/built-in.o
+  LD      drivers/misc/built-in.o
+  LD      drivers/built-in.o
+  LINK    vmlinux
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+WARNING: modpost: Found 19 section mismatch(es).
+To see full details build your kernel with:
+'make CONFIG_DEBUG_SECTION_MISMATCH=y'
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm/boot/Image
+  Kernel: arch/arm/boot/Image is ready
+  XZKERN  arch/arm/boot/compressed/piggy.xzkern
+  AS      arch/arm/boot/compressed/piggy.xzkern.o
+  LD      arch/arm/boot/compressed/vmlinux
+  OBJCOPY arch/arm/boot/zImage
+  Kernel: arch/arm/boot/zImage is ready
